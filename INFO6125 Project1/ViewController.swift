@@ -87,6 +87,7 @@ class ViewController: UIViewController {
             letterBoxRow[columnCounter-1].textColor = UIColor.lightGray
             word.removeLast()
             columnCounter = columnCounter - 1
+            submitButton.isEnabled = false
         }
     }
     

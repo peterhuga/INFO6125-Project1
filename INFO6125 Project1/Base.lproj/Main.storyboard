@@ -706,14 +706,14 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Axx-9I-T3k">
                                         <rect key="frame" x="191.66666666666666" y="0.0" width="35" height="50"/>
-                                        <buttonConfiguration key="configuration" style="filled" buttonSize="medium">
-                                            <string key="title" base64-UTF8="YES">
-EFk
-</string>
+                                        <buttonConfiguration key="configuration" style="filled" title="Y" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
                                             <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9sb-uQ-u9t"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yW-Hd-gZi">
                                         <rect key="frame" x="229.66666666666666" y="0.0" width="35.333333333333343" height="50"/>
@@ -822,16 +822,16 @@ EFk
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8rg-UV-Lwv"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2xZ-Rg-NiN">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JoN-8k-yCo">
                                         <rect key="frame" x="196" y="0.0" width="36.333333333333343" height="50"/>
-                                        <buttonConfiguration key="configuration" style="filled" buttonSize="medium">
-                                            <string key="title" base64-UTF8="YES">
-EEg
-</string>
+                                        <buttonConfiguration key="configuration" style="filled" title="H" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
                                             <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sdL-JC-fV4"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISZ-DJ-uZ8">
                                         <rect key="frame" x="235.33333333333334" y="0.0" width="36.333333333333343" height="50"/>
@@ -929,16 +929,16 @@ EEg
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aer-uc-5xM"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H7b-d5-knz">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfP-He-Aah">
                                         <rect key="frame" x="195.66666666666666" y="0.0" width="36" height="50"/>
-                                        <buttonConfiguration key="configuration" style="filled" buttonSize="medium">
-                                            <string key="title" base64-UTF8="YES">
-EE4
-</string>
+                                        <buttonConfiguration key="configuration" style="filled" title="N" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
                                             <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mnz-Ue-2Ch"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j3A-Bd-2Sp">
                                         <rect key="frame" x="234.66666666666669" y="0.0" width="36.333333333333314" height="50"/>
@@ -1025,7 +1025,6 @@ EE4
                         <outletCollection property="bottomRowButtons" destination="PYv-Z5-331" collectionClass="NSMutableArray" id="eNz-fC-7Tg"/>
                         <outletCollection property="bottomRowButtons" destination="VPE-M1-E1L" collectionClass="NSMutableArray" id="rvw-qg-ukL"/>
                         <outletCollection property="bottomRowButtons" destination="Wru-Kw-ygE" collectionClass="NSMutableArray" id="9Rh-qT-8iz"/>
-                        <outletCollection property="bottomRowButtons" destination="H7b-d5-knz" collectionClass="NSMutableArray" id="od4-QP-sYE"/>
                         <outletCollection property="bottomRowButtons" destination="j3A-Bd-2Sp" collectionClass="NSMutableArray" id="iso-xd-JZ5"/>
                         <outletCollection property="firstRowLetters" destination="Jz6-ss-ZNN" collectionClass="NSMutableArray" id="5mn-IB-YaP"/>
                         <outletCollection property="firstRowLetters" destination="fYe-be-HlU" collectionClass="NSMutableArray" id="ZCS-sa-MTg"/>
@@ -1057,6 +1056,9 @@ EE4
                         <outletCollection property="fourthRowLetters" destination="mgL-uE-z9B" collectionClass="NSMutableArray" id="a3K-gF-o4a"/>
                         <outletCollection property="fourthRowLetters" destination="kqW-4n-ETI" collectionClass="NSMutableArray" id="vXD-iO-lrj"/>
                         <outletCollection property="fourthRowLetters" destination="qvZ-tZ-MwA" collectionClass="NSMutableArray" id="fjc-D7-B6o"/>
+                        <outletCollection property="bottomRowButtons" destination="w9A-9o-nGt" collectionClass="NSMutableArray" id="6as-hp-o1G"/>
+                        <outletCollection property="bottomRowButtons" destination="zbe-Nv-hFs" collectionClass="NSMutableArray" id="7B8-LX-6JZ"/>
+                        <outletCollection property="bottomRowButtons" destination="geM-kT-cwG" collectionClass="NSMutableArray" id="yyk-tk-u8o"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
