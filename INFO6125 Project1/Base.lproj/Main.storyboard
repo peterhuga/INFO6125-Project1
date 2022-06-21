@@ -654,7 +654,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="Q" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QKT-lB-VEP"/>
@@ -665,7 +665,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="W" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="4" bottom="0.0" trailing="4"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QZW-FK-4Vr"/>
@@ -676,7 +676,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="E" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zq8-R0-Dau"/>
@@ -687,7 +687,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="R" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qSf-ay-bHb"/>
@@ -698,7 +698,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="T" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BoF-hq-g2V"/>
@@ -709,7 +709,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="Y" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9sb-uQ-u9t"/>
@@ -720,7 +720,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="U" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hkt-Tc-zFt"/>
@@ -731,7 +731,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="I" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7rt-hc-xBj"/>
@@ -742,7 +742,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="O" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="raN-06-xSA"/>
@@ -753,7 +753,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="P" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w0g-8u-V0s"/>
@@ -772,7 +772,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="A" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2hR-tz-JA4"/>
@@ -783,7 +783,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="S" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="48y-b6-g7q"/>
@@ -794,7 +794,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="D" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8n8-w3-v44"/>
@@ -805,7 +805,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="F" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pAI-c7-WQo"/>
@@ -816,7 +816,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="G" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8rg-UV-Lwv"/>
@@ -827,7 +827,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="H" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sdL-JC-fV4"/>
@@ -838,7 +838,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="J" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FRV-mv-vOw"/>
@@ -849,7 +849,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="K" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VVi-1f-1bO"/>
@@ -860,7 +860,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="L" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UUW-ZN-Wt1"/>
@@ -879,7 +879,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="Z" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qcv-td-VlW"/>
@@ -890,7 +890,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="X" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T2q-Xk-2hk"/>
@@ -901,7 +901,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="C" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3VF-UE-Txx"/>
@@ -912,7 +912,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="V" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V8f-Wa-S6k"/>
@@ -923,7 +923,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="B" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aer-uc-5xM"/>
@@ -934,7 +934,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="N" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mnz-Ue-2Ch"/>
@@ -945,7 +945,7 @@
                                         <buttonConfiguration key="configuration" style="filled" title="M" buttonSize="medium">
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="28"/>
                                             <directionalEdgeInsets key="contentInsets" top="0.0" leading="7" bottom="0.0" trailing="7"/>
-                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                            <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="onButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DCh-hN-40P"/>
@@ -1059,6 +1059,23 @@
                         <outletCollection property="bottomRowButtons" destination="w9A-9o-nGt" collectionClass="NSMutableArray" id="6as-hp-o1G"/>
                         <outletCollection property="bottomRowButtons" destination="zbe-Nv-hFs" collectionClass="NSMutableArray" id="7B8-LX-6JZ"/>
                         <outletCollection property="bottomRowButtons" destination="geM-kT-cwG" collectionClass="NSMutableArray" id="yyk-tk-u8o"/>
+                        <outletCollection property="bottomRowButtons" destination="vCF-wh-xU8" collectionClass="NSMutableArray" id="lJe-gV-unV"/>
+                        <outletCollection property="bottomRowButtons" destination="Vj9-fo-RHs" collectionClass="NSMutableArray" id="RLl-xr-LbM"/>
+                        <outletCollection property="bottomRowButtons" destination="JoN-8k-yCo" collectionClass="NSMutableArray" id="uOz-NQ-Rpp"/>
+                        <outletCollection property="bottomRowButtons" destination="ISZ-DJ-uZ8" collectionClass="NSMutableArray" id="0Jb-RN-aqZ"/>
+                        <outletCollection property="bottomRowButtons" destination="gfP-He-Aah" collectionClass="NSMutableArray" id="DxI-SZ-Hfw"/>
+                        <outletCollection property="bottomRowButtons" destination="V60-fc-Qt3" collectionClass="NSMutableArray" id="DoT-rI-K7H"/>
+                        <outletCollection property="bottomRowButtons" destination="ppI-nn-ght" collectionClass="NSMutableArray" id="7I6-rR-ctl"/>
+                        <outletCollection property="bottomRowButtons" destination="b9C-ZB-Ob6" collectionClass="NSMutableArray" id="1JL-Q6-hcx"/>
+                        <outletCollection property="bottomRowButtons" destination="sDv-tr-cql" collectionClass="NSMutableArray" id="A5j-QK-QIm"/>
+                        <outletCollection property="bottomRowButtons" destination="vHF-6V-lgH" collectionClass="NSMutableArray" id="0Ft-Bt-zOv"/>
+                        <outletCollection property="bottomRowButtons" destination="wE7-Fd-1ZN" collectionClass="NSMutableArray" id="5UX-un-4Kf"/>
+                        <outletCollection property="bottomRowButtons" destination="A7s-aG-3ru" collectionClass="NSMutableArray" id="ggz-u7-ZJ3"/>
+                        <outletCollection property="bottomRowButtons" destination="Axx-9I-T3k" collectionClass="NSMutableArray" id="ENq-qH-4h4"/>
+                        <outletCollection property="bottomRowButtons" destination="8yW-Hd-gZi" collectionClass="NSMutableArray" id="XtT-my-Uyx"/>
+                        <outletCollection property="bottomRowButtons" destination="nXE-A1-Xub" collectionClass="NSMutableArray" id="ZDZ-aC-Slm"/>
+                        <outletCollection property="bottomRowButtons" destination="IgH-rv-8aD" collectionClass="NSMutableArray" id="0td-Yw-Qj4"/>
+                        <outletCollection property="bottomRowButtons" destination="fWS-5p-oPn" collectionClass="NSMutableArray" id="4Yk-3K-eAh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -1073,9 +1090,6 @@
         </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
