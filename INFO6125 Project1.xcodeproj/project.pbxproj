@@ -13,6 +13,7 @@
 		D4449AF4285CF73E0084369F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4449AF2285CF73E0084369F /* Main.storyboard */; };
 		D4449AF6285CF73E0084369F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4449AF5285CF73E0084369F /* Assets.xcassets */; };
 		D4449AF9285CF73E0084369F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4449AF7285CF73E0084369F /* LaunchScreen.storyboard */; };
+		D4C1FA6028615EA60016C08F /* WordList.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4C1FA5F28615EA60016C08F /* WordList.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		D4449AF5285CF73E0084369F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4449AF8285CF73E0084369F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4449AFA285CF73E0084369F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4C1FA5B28615B740016C08F /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		D4C1FA5D28615C980016C08F /* WordList.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = WordList.txt; sourceTree = "<group>"; };
+		D4C1FA5F28615EA60016C08F /* WordList.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = WordList.txt; path = "INFO6125 Project1/Resources/WordList.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		D4449AE0285CF73E0084369F = {
 			isa = PBXGroup;
 			children = (
+				D4C1FA5D28615C980016C08F /* WordList.txt */,
+				D4C1FA5F28615EA60016C08F /* WordList.txt */,
 				D4449AEB285CF73E0084369F /* INFO6125 Project1 */,
 				D4449AEA285CF73E0084369F /* Products */,
 			);
@@ -56,6 +62,7 @@
 		D4449AEB285CF73E0084369F /* INFO6125 Project1 */ = {
 			isa = PBXGroup;
 			children = (
+				D4C1FA5B28615B740016C08F /* Resources */,
 				D4449AEC285CF73E0084369F /* AppDelegate.swift */,
 				D4449AEE285CF73E0084369F /* SceneDelegate.swift */,
 				D4449AF0285CF73E0084369F /* ViewController.swift */,
@@ -125,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4C1FA6028615EA60016C08F /* WordList.txt in Resources */,
 				D4449AF9285CF73E0084369F /* LaunchScreen.storyboard in Resources */,
 				D4449AF6285CF73E0084369F /* Assets.xcassets in Resources */,
 				D4449AF4285CF73E0084369F /* Main.storyboard in Resources */,

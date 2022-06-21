@@ -8,10 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let wordList: [String] = ["WATER", "PLANE", "PETER"]
-    let answer: [Character] = [Character]("WAAER")
+    
+    
+    
+    
+    var answer: [Character] = []
     var word: [Character] = []
-    var inputKey: String = ""
+    var uppercasedWordList: [String] = []
     var columnCounter: Int = 0
     var rowCounter: Int = 1
     var letterBoxRow: [UILabel] = []
@@ -35,6 +38,30 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+//Found a txt word list (5757 words) at Github and read the words into an array and capitalize the words.
+        var arrayOfWords: [String]?
+
+            do {
+                // This solution assumes  you've got the file in your bundle
+                if let path = Bundle.main.path(forResource: "WordList", ofType: "txt"){
+                    let data = try String(contentsOfFile:path, encoding: String.Encoding.utf8)
+                    arrayOfWords = data.components(separatedBy: "\n")
+                    
+                }
+            } catch let err as NSError {
+                // do something with Error
+                print(err)
+            }
+        uppercasedWordList = arrayOfWords!.map {
+            $0.uppercased()
+            
+        }
+        
+        createRandomWord()
+        
+
+        
         // Do any additional setup after loading the view.
         bottomRowButtons.forEach{button in
             button.backgroundColor = UIColor.systemGray
@@ -179,8 +206,25 @@ class ViewController: UIViewController {
                 label.backgroundColor = UIColor.lightGray
             }
         }
+        createRandomWord()
+        
         rowCounter = 1
     }
+    
+    func createRandomWord()->Void{
+        
+        // Get a random number to identify the word in the array
+                let index: Int = Int(arc4random_uniform(5757))
+                
+                let wordString: String = uppercasedWordList[index]
+                print("The selected word is: " + wordString)
+                
+                answer = [Character](wordString)
+                print(answer)
+        
+    }
+    
+    
 }
 
 
