@@ -972,8 +972,7 @@
                                     <constraint firstAttribute="height" constant="50" id="KOT-77-hWA"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Submit word">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Submit A Word">
                                     <color key="baseBackgroundColor" systemColor="systemGray2Color"/>
                                 </buttonConfiguration>
                                 <connections>
