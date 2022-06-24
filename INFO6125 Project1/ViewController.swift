@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     var columnCounter: Int = 0
     var rowCounter: Int = 1
     var letterBoxRow: [UILabel] = []
-    var checkCounter: Int = 0 // plus 1 every time a box is set to green, all correct when reached 5
+    var checkCounter: Int = 0 // plus 1 every time a box is set to blue, all correct when reached 5
     
     
     //Outlet collections.
@@ -131,10 +131,10 @@ class ViewController: UIViewController {
         
         
         
-        //Check every index to determine the correctness. Green color is straighforward, but the letter needs to be masked by assigning a "1" (or any other non alphabetical character) so that the next same letter in guess will not be checked against it and get an orange color.
+        //Check every index to determine the correctness. Blue color is straighforward, but the letter needs to be masked by assigning a "1" (or any other non alphabetical character) so that the next same letter in guess will not be checked against it and get an orange color.
         for i in 0...4 {
             if tempWord[i] == tempAnswer[i] {
-                changeLetterBox(letterRow: letterBoxRow, index: i, c: word[i], color: UIColor.green)
+                changeLetterBox(letterRow: letterBoxRow, index: i, c: word[i], color: UIColor.systemBlue)
                 
                 tempAnswer[i] = "1"
                 checkCounter = checkCounter + 1
@@ -143,15 +143,15 @@ class ViewController: UIViewController {
             else if tempAnswer.contains(tempWord[i]) {
                 //If one letter is potentially orange ,need to check where it is and get the index, just in case there are more than one instance in the answer.
                 let index = tempAnswer.firstIndex(of: tempWord[i])
-                //Check if the instance is a green, if so, mask it.
+                //Check if the instance is a blue, if so, mask it.
                 if tempAnswer[index!] == tempWord[index!] {
                     tempAnswer[index!]="1"
                     tempWord[index!]="1"
-                    //However, 2 scenarios after this. If there is more instance after the green, this letter can be safely set to be orange. Else if this is the only one instance in the answer, once it is identified as green, the previous orange has to be gray, as it is a premature orange.
+                    //However, 2 scenarios after this. If there is more instance after the blue, this letter can be safely set to be orange. Else if this is the only one instance in the answer, once it is identified as blue, the previous orange has to be gray, as it is a premature orange.
                     if tempAnswer .contains(tempWord[i]){
                         changeLetterBox(letterRow: letterBoxRow, index: i, c: tempWord[i], color: UIColor.orange)
                         
-                        //Find out the next instance after green and mask it so it will be checked again.
+                        //Find out the next instance after blue and mask it so it will be checked again.
                         let index = tempAnswer.firstIndex(of: tempWord[i])
                         tempAnswer[index!] = "2"
                         
@@ -161,7 +161,7 @@ class ViewController: UIViewController {
                         
                     }
                     
-                    //If there is no green instance, safely set it to be orange.
+                    //If there is no blue instance, safely set it to be orange.
                 } else {
                     changeLetterBox(letterRow: letterBoxRow, index: i, c: tempWord[i], color: UIColor.orange)
                     tempAnswer[index!] = "2"
