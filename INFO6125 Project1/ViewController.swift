@@ -117,7 +117,7 @@ class ViewController: UIViewController {
     @IBAction func onSubmitButtonTapped(_ sender: UIButton) {
         //Use a checker to know when the correct word is guessed. (checkCounter == 5)
         checkCounter = 0
-        let alertGood = UIAlertController(title: "Congratulations!", message: "You got the write word.Press the OK button to play again.", preferredStyle: .alert )
+        let alertGood = UIAlertController(title: "Congratulations!", message: "You got the right word.Press the OK button to play again.", preferredStyle: .alert )
         let alertBad = UIAlertController(title: "You didn't get it.", message: "The answer is \'\(String(answer))\'. Press the OK button to try again.", preferredStyle: .alert )
         let windButton = UIAlertAction(title: "OK", style: .default) { _ in self.reset()}
         let loseButton = UIAlertAction(title: "OK", style: .default) { _ in self.reset()}
